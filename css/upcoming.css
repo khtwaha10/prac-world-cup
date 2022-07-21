@@ -33,6 +33,24 @@ body{
     padding: 10px;
     color: aliceblue;
     margin-top: 10px;
+    transition: 5s;
+}
+.container button.submit:hover{
+    background-color: black;
+}
+.text{
+    padding-right: 10px;
+    font-size: 15px;
+}
+i.fa-solid.fa-arrow-right{
+    animation: mymove 5s infinite 2s;
+}
+i.fa-solid.fa-arrow-right:hover{
+    position: relative;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 5px;}
 }
 .text{
     padding-right: 10px;

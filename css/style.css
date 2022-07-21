@@ -84,7 +84,7 @@ i.fa-solid.fa-arrow-right:hover{
 @keyframes mymove {
     from {left: 0px;}
     to {left: 5px;}
-  }
+}
 .blog-info .submit.live{
     background-color: red;
     border-radius: 5px;
