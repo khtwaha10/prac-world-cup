@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+.header{
+    background-color: black;
+    border-radius: 10px;
+    width: 1000px;
+    height: 400px;
+    margin: 50px 150px 50px 130px;
+}
+.container{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    margin: 50px 24px 0 140px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+.header-title{
+    font-size: 40px;
+}
+.submit{
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px;
+    color: aliceblue;
+    margin-top: 10px;
+}
+.text{
+    padding-right: 10px;
+    font-size: 15px;
+}
+.image-container{
+    width: 200px;
+    height: 300px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+.box-container{
+    display: flex;
+    width: 100%;
+    padding-left: 140px;
+}
+.blog-info{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: black;
+    width: 180px;
+    height: 220px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.blog-info .submit{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.blog-info .submit a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.blog-info .submit.upcoming{
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.match-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 200px;
+    height: 200px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.match-blog{
+    border: 1px solid red;
+}
+.match{
+    display: flex;
+    align-items: center;
+}
+.match-container img{
+    width: 109px;
+    height: 157px;
+    padding: 30px 10px 30px 10px;
+}
+.match-details{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px 10px 35px;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    margin-top: 300px;
+    height: 200px;
+    width: 100%;
+}
+.footer-title{
+    padding: 80px 0 10px 600px;
+}
+#horizontal-line{
+    width: 800px;
+    height: 0px;
+    border: 1px solid whitesmoke;
+    margin-left: 210px;
+    margin-bottom: 10px;
+}
+.footer-nav a{
+    display: inline;
+    color: aliceblue;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    left: 350px;
+}
+.social-link{
+    display: flex-end;
+    float: right;
+    padding-right: 10px;
+    padding-top: 10px;
+    position: center;
+}
+.social-link button{
+    background-color: black;
+}
+.social-link a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.social-link span{
+    padding: 2px;
+}
